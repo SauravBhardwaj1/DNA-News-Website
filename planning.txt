@@ -1,0 +1,33 @@
+Day ==> Heading
+issues - 1. Navbar
+         2. Search bar
+         3. button
+         4. left div
+         5. Latest news
+         7. photos
+         8. videos
+         9. explainers
+         10. India
+         11. Entertainment
+Day-3 ==> Main page
+issues - 1. Right div
+         2. videos
+         3. Trending new topics
+         4. popular stories
+         5. speed reads
+         6. Top news
+         7. videos
+         8. photos
+         9. India
+Day-4 ==> Main page
+issues - 1. Sports
+         2. Viral news
+         3. Lifestyles
+         4. Education 
+         5. Business
+         6. World
+Day-5 ==> Footer
+issues - 1. About DNA page
+         2. div
+         3. image
+         4. footer                  
