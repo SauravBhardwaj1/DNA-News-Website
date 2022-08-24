@@ -1,0 +1,85 @@
+body{
+    background-color: #F0F0F0;
+}
+#navbar{
+    width: 100vw;
+    height:70px;
+    margin-top: 100px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: sticky;
+}
+#navbar>.dna>img{
+    font-size: 18px;
+    margin-left: 20px;
+    width: 45%;
+}
+#btn{
+    background-color: yellow;
+    height:50%;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-left:-40px ;
+}
+#img>img{
+    width:100%;
+    background-color: yellow;
+    margin-left: 20px;
+    border: none;
+    
+}
+#img{
+    width: 60px;
+    background-color: yellow;
+    border: none;
+    margin-left: 73%;
+}
+#nav{
+    width:98%;
+    display: flex;
+    margin: auto;
+    background-color: rgb(42, 39, 39);
+    margin-top: 20px;
+    align-items: center;
+}
+
+#nav>div{
+    width: 10%;
+    padding: 7px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: grey;
+}
+.p_tag>p{
+    text-align: center;
+    font-weight: bold;
+}
+#nav>p{
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+}
+#left{
+    width:22%;
+    border: 0px solid blue;
+    height: 700px;
+    margin-top: 50px;
+    background-color: #F0F0F0;
+    position: sticky;
+}
+#left>button{
+    width: 100%;
+    text-align: left;
+    height: auto;
+    font-size: 13px;
+    margin-top: -15px;
+    align-items: center;
+    display: flex;
+    border: none;
+    
+}
+#left>button:hover{    
+    background-color: yellow;
+    cursor: pointer;
+}
