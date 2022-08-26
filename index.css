@@ -61,8 +61,7 @@ body{
     margin: auto;
     background-color: rgb(42, 39, 39);
     margin-top: 20px;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 #nav>.p_tag{
@@ -134,7 +133,7 @@ body{
     align-items: center;
     display: flex;
     border: none;
-    
+    transition: all 0.3s ease-in-out;
 }
 #left>button:hover{    
     background-color: yellow;
@@ -188,7 +187,7 @@ body{
     width: 100%;
     font-size: 15px;
     font-family: sans-serif;
-    color: grey;
+    color: rgb(43, 39, 39);
     margin-left: 5px;
 }
 #image{
@@ -204,7 +203,7 @@ body{
     margin: auto;
 }
 #image>.inner>img{
-   margin-left: 80px;
+   margin-left: 120px;
 }
 #videos{
     display: flex;
@@ -223,7 +222,7 @@ body{
     width: 100%;
     font-size: 15px;
     margin-top: 0px;
-    color: rgb(63, 61, 61);
+    color: rgb(51, 47, 47);
     font-weight: bold;
     font-family: sans-serif;
     margin-left: 5px;
@@ -247,7 +246,7 @@ body{
     margin-top:10px;
     font-size: 18px;
     font-family: 'Times New Roman';
-    color: grey;
+    color: rgb(54, 48, 48);
     text-transform: uppercase;
 }
 #photos{
@@ -267,7 +266,7 @@ body{
     width: 100%;
     font-size: 15px;
     margin-top: 0px;
-    color: rgb(63, 61, 61);
+    color: rgb(53, 50, 50);
     font-weight: bold;
     font-family: sans-serif;
     margin-left: 5px;
@@ -311,7 +310,7 @@ body{
     width: 100%;
     font-size: 15px;
     margin-top: 0px;
-    color: rgb(63, 61, 61);
+    color: rgb(42, 38, 38);
     font-weight: bold;
     font-family: sans-serif;
     margin-left: 5px;
@@ -335,7 +334,7 @@ body{
     margin-top:10px;
     font-size: 18px;
     font-family: 'Times New Roman';
-    color: grey;
+    color: rgb(39, 34, 34);
     text-transform: uppercase;
 }
 #india>.ind{
@@ -501,6 +500,7 @@ body{
     margin-top: 15px;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
 }
 #popular>h2{
     margin-left: 5px;
@@ -534,6 +534,135 @@ body{
     width:90%;
     font-size: 18px;
     font-family: sans-serif;
-    color: grey;
+    color: rgb(34, 31, 31);
     margin-left: 5px;
 }
+#right>#view{
+    width: 100%;
+    display: grid;
+    /* display: flex; */
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(auto);
+    gap:20px;
+    border: 0px solid blue;
+    margin-top: 20px;
+}
+#view>.viral{
+    width: 100%;
+    margin: auto;
+    border: 0px solid black;
+}
+#view>.viral>img{
+    width: 100%;
+}
+#view>.viral>a>h3{
+    width: 100%;
+    margin-top: 0px;
+    color: rgb(34, 31, 31);
+}
+#right>#speed{
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px ;
+}
+#speed>img{
+    width: 100%;
+}
+#speed>a>h3{
+    width: 100%;
+    color: rgb(30, 28, 28);
+    margin-top: 0px;
+}
+#right>#blank{
+    width: 100;
+    height:300px;
+    background-color: rgb(194, 186, 186);
+}
+#buttn{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    border: 0px solid black;
+}
+#buttn>button{
+    padding: 1px;
+    margin: auto;
+    width: 30%;
+    background-color: yellow;
+    cursor: pointer;
+}
+#mid-container{
+    width: 100%;
+    border: 0px solid black;
+    height: auto;
+    display: flex;
+    margin-top: 40px;
+}
+#mid-container>#first{
+    width: 30%;
+    border: 0px solid blue;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+#mid-container>#first>.box>img{
+    width: 100%;
+    height: 250px;
+}
+#first>.box>a>h3{
+    width: 100%;
+    color: rgb(25, 24, 24);
+    margin-top: 0px;
+    font-size: 20px;
+}
+#first>.box>p{
+    width: 100%;
+    color: rgb(87, 83, 83);
+    margin-top: 0px;
+    font-size: 15px;
+}
+#mid-container>#second{
+    display: flex;
+    width: 100%;
+    border: 0px solid black;
+    height: auto;
+    background-color: white;
+}
+#second>.box2{
+    width: 48%;
+    border: 0px solid blue;
+    height: auto;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+#second>.box2>img{
+    width: 100%;
+}
+#second>.box2>p{
+    width: 100%;
+    color: rgb(87, 83, 83);
+    margin-top: 0px;
+    font-size: 15px;
+}
+#second>.box2>a>h3{
+    width: 100%;
+    color: rgb(25, 24, 24);
+    margin-top: 0px;
+    font-size: 20px;
+}
+/* .footer-content{
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+    height: 400px;
+}
+#foot{
+    width: 100%;
+    border: 1px solid blanchedalmond;
+}
+
+@media all and(min-width:480px) and (max-width:768px){
+
+} */
