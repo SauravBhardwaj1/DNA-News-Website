@@ -205,6 +205,10 @@ body{
 #image>.inner>img{
    margin-left: 120px;
 }
+a>h1{
+    margin-top: 40px;
+    color: rgb(50, 48, 48);
+}
 #videos{
     display: flex;
     width: 100%;
@@ -231,13 +235,13 @@ body{
     width: 100%;
     background-color: white;
     border-radius: 10px;
-    border: 0px solid blue;
+    border: 1px solid black;
     height: 40px;
     text-align: center;
 }
 #more_videos>.more{
     width: 50%;
-    height: 96%;
+    height: 90%;
     margin: auto;
     text-align: center;
     border: 1px solid white;
@@ -254,6 +258,7 @@ body{
     width: 100%;
     border: 0px solid black;
     background-color: #F0F0F0;
+    margin-top: 20px;
 }
 #photos>.photo{
     width: 51%;
@@ -275,13 +280,13 @@ body{
     width: 100%;
     background-color: white;
     border-radius: 10px;
-    border: 0px solid blue;
+    border: 1px solid black;
     height: 40px;
     text-align: center;
 }
 #more_photos>.more{
     width: 50%;
-    height: 96%;
+    height: 90%;
     margin: auto;
     text-align: center;
     border: 1px solid white;
@@ -290,7 +295,7 @@ body{
     margin-top:10px;
     font-size: 18px;
     font-family: 'Times New Roman';
-    color: grey;
+    color: rgb(6, 5, 5);
     text-transform: uppercase;
 }
 #dna{
@@ -319,13 +324,13 @@ body{
     width: 100%;
     background-color: white;
     border-radius: 10px;
-    border: 0px solid blue;
+    border: 1px solid black;
     height: 40px;
     text-align: center;
 }
 #more_dna>.more{
     width: 50%;
-    height: 96%;
+    height: 90%;
     margin: auto;
     text-align: center;
     border: 1px solid white;
@@ -653,16 +658,74 @@ body{
     margin-top: 0px;
     font-size: 20px;
 }
-/* .footer-content{
+.footer-content{
     width: 100%;
-    background-color: rgb(17, 16, 16);
-    height: 400px;
+    background-color: rgb(13, 13, 13);
+    height: auto;
 }
-#foot{
-    width: 100%;
-    border: 1px solid blanchedalmond;
+#foot>.footer-box>.row>.nav{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+    border: 0px solid brown;
+    padding: 16px;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: -10px;
 }
+.footer-box>.row>.nav>.nav-item a{
+    color: #817d7d;
+    margin-left: 20px;
+}
+#mid-footer-text{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    margin-top: -10px;
+}
+#mid-footer .mid-nav{
+    display: flex;
+    gap: 10px;
+}
+#mid-footer p{
+    margin-left: 10px;
+    font-size: 15px;
+    color:#817d7d;
+}
+#mid-footer .nav{
+    display: flex;
+    margin-left: 20px;
+    gap:30px;
+    font-size: 15px;
+}
+#mid-footer .mid-nav{
+    display: flex;
+    margin-left: -20px;  
+}
+#mid-footer .nav a{
+    color: #817d7d;
+}
+#mid-footer .left-txt{
+    margin-left: 20px;
+}
+#mid-footer .left-txt a{
+    color: #817d7d;
+    font-size: 15px;
+}
+#last-foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#last-foot>p{
+    color: #817d7d;
+    font-size: 12px;
+}
+footer{
+    position: sticky;
 
+}
 @media all and(min-width:480px) and (max-width:768px){
 
-} */
+}
