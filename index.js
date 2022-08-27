@@ -1,17 +1,21 @@
 
-document.querySelector("#left").addEventListener("click",myfun)
+document.querySelector("#news").addEventListener("click",myfun)
 
-let arr=JSON.parse(localStorage.getItem("news"))||[]
+let arr=JSON.parse(localStorage.getItem("news1"))||[]
 function myfun(event){
     event.preventDefault();
-    console.log("hi")
     let latest_news=document.querySelector("#news").value;
     let photos=document.querySelector("#photos").value;
 
-    let obj={
-        latest_news,
-        photos
-    }
+    let obj=[
+        {
+            latest_news: "https://www.dnaindia.com/headlines",
+        },
+        {
+            photos: "https://www.dnaindia.com/photo-gallery",
+        }
+    
+    ]
     arr.push(obj)
-    localStorage.setItem("news",JSON.stringify(arr))
+    localStorage.setItem("news1",JSON.stringify(arr))
 }
