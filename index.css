@@ -1,6 +1,7 @@
 body{
     background-color: #F0F0F0;
 }
+
 #ad{
     width: 100%;
     border: 0px solid black;
@@ -27,6 +28,19 @@ body{
     position: sticky;
     top: 0px;
 }
+#log{
+    border: 1px solid whitesmoke;
+    background-color: rgb(246, 209, 209);
+    justify-content: center;
+    text-align: center;
+    width: 10%;
+    padding: 5px;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 80%;
+    font-size: 30px;
+    margin-bottom: 20px; 
+}
 #navbar>.dna{
     display: flex;
     width: 22%;
@@ -39,7 +53,7 @@ body{
     width: 35%;
 }   
 .dna>a{
-    width: 70px;
+    width: 100px;
     background-color: yellow;
     border-radius: 18px;
     margin-left: 40px;

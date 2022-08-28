@@ -1,5 +1,5 @@
 
-document.querySelector("#news").addEventListener("click",myfun)
+document.querySelector("#left").addEventListener("click",myfun)
 
 let arr=JSON.parse(localStorage.getItem("news1"))||[]
 function myfun(event){
@@ -19,3 +19,4 @@ function myfun(event){
     arr.push(obj)
     localStorage.setItem("news1",JSON.stringify(arr))
 }
+let newsArr=JSON.parse(localStorage.getItem("login"))
